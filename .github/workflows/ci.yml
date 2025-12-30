@@ -227,7 +227,7 @@ jobs:
           echo "APPLICATION_KEY=bookverse-checkout" >> $GITHUB_ENV
 
       - name: "[Setup] JFrog CLI"
-        uses: EyalDelarea/setup-jfrog-cli@swampUpAppTrust
+        uses: jfrog/setup-jfrog-cli@v4
         id: jfrog-cli-auth
         with:
           oidc-provider-name: bookverse-checkout-github
@@ -781,7 +781,7 @@ jobs:
           path: bookverse-infra
 
       - name: "[Setup] JFrog CLI"
-        uses: EyalDelarea/setup-jfrog-cli@swampUpAppTrust
+        uses: jfrog/setup-jfrog-cli@v4
         id: jfrog-cli-auth
         with:
           oidc-provider-name: bookverse-checkout-github

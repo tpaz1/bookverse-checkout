@@ -74,3 +74,4 @@ For the non-JFrog evidence plan and gates, see: `../bookverse-demo-init/docs/EVI
 - [`ci.yml`](.github/workflows/ci.yml) — CI: tests, multi-container builds, publish artifacts/build-info, AppTrust version and evidence
 - [`promote.yml`](.github/workflows/promote.yml) — Promote the checkout app version through stages with evidence
 - [`promotion-rollback.yml`](.github/workflows/promotion-rollback.yml) — Roll back a promoted checkout application version (demo utility)
+# Demo update Tue Dec 30 16:09:57 IST 2025
